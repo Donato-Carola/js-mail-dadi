@@ -2,18 +2,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
 
 }
 
 .user{
-    padding: 1rem;
+    padding: 5rem;
     background-color: blue;
 }
 
 .pc{
-    padding: 1rem;
+    padding: 5rem;
     background-color: blueviolet;
 }
 
