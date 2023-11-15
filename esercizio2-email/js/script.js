@@ -11,6 +11,9 @@ const risposta = document.getElementById('risultato');
 const text = document.createElement('h1')
 risposta.appendChild(text);
 
+//const span= document.createElement('span')
+//text.append(span);
+
                                                             
 const inputUser = document.querySelector("button");
 
@@ -43,9 +46,11 @@ function(){
     if(found ) {
         console.log('email trovata');
         document.querySelector('h1').innerHTML = `email ${emailUser}  trovata`
+       // document.querySelector('span').innerHTML = `${emailUser}`
     } else if (found === false || emailUser === '') {
         console.log('email non trovata')
         document.querySelector('h1').innerHTML = `email ${emailUser} non trovata`
+       // document.querySelector('div>h1>span').innerHTML = `${emailUser}`
     }
 
     //** Inizio il controllo */
